@@ -1,0 +1,99 @@
+html,body{
+    height:100%;
+    width:100%;
+    font-size : 100%;
+    margin-left : auto;
+    margin-right : auto;
+    text-align : center;
+    background-color : #EFEFEF;
+}
+
+/*platform-horizontal-half*/
+
+.platform-container {
+  display: flex;
+}
+
+.platform-horizontal-half {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.platform-horizontal-half + .platform-horizontal-half {
+  margin-left: 2%;
+}
+
+/*left-vertical-stack*/
+
+.platform-horizontal-half {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-vertical-stack {
+  margin-bottom: 10px;
+}
+
+/*right-vertical-stack*/
+
+.right-vertical-stack {
+  margin-bottom: 10px;
+}
+
+/*question-stack*/
+
+.question-stack-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-stack {
+  margin-bottom: 10px;
+}
+
+/*description-and-functions-related*/
+
+.description-and-functions-related-container {
+  display: flex;
+}
+
+.description-and-functions-related {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.description-and-functions-related + .description-and-functions-related {
+  margin-left: 2%;
+}
+
+/*graphs*/
+
+.graph-container {
+  display: flex;
+}
+
+.graph {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.graph + .graph {
+  margin-left: 2%;
+}
+
+/*outputs*/
+
+.output-container {
+  display: flex;
+}
+
+.output {
+  flex-grow: 1;
+  height: 100px;
+}
+
+.output + .output {
+  margin-left: 2%;
+}
